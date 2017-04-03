@@ -3,13 +3,13 @@
   100.times do
 
     if i % 15 == 0
-    puts i.to_s + "は…fizzbuzz!!"
+      puts i.to_s + "は…fizzbuzz!!"
     elsif i % 5 == 0
-    puts i.to_s + "は…fizz!!"
+      puts i.to_s + "は…fizz!!"
     elsif i % 3 == 0
-    puts i.to_s + "は…buzz!!"
+      puts i.to_s + "は…buzz!!"
     else
-    puts  i
+      puts  i
     end
    
     i = i + 1
